@@ -1,8 +1,8 @@
 # Hit Potential
 
-For this project, I'll use the Billboard 200 data provided on the Billboard website over the past 50 year and pair with Spotify's API to analyze the metadata of the best performing songs over the past half century. The exploration of this rich data will be used to uncover possible features to create a data-based project that can be used to make predictions on the potential for a song to make it onto the Billboard 200.
+For this project, I'll use the Billboard 200 data provided on the Billboard website over the past 50 year and pair with Spotify's API to analyze the metadata of the best performing songs over the past half century. The exploration of this rich data will be used to uncover possible features to create a project that can be used to make predictions on the potential for a song to make it onto the Billboard 200.
 
-This is obviously a very limited model as it is not going to take into account, external factors such as promotional budget or larger music trends. It is going to be able to take into account fanbase and some other factors that are not solely related to the song's make-up.
+This is obviously a very limited model as it is not going to take into account, external factors such as promotional budget or larger music trends. However, it can take into account fanbase and some other factors that are not solely related to the song's make-up leading to a reasonable indicator of whether a song has hit potential.
 
 # Concert Forecasting
 
@@ -14,4 +14,4 @@ One challenge I see is that a lot of times the best data and richest data is pro
 
 # Playlist Builder
 
-Setlist.fm offers data on setlists of millions of concerts. The goal is to merge these setlists with information from the Spotify API on the make-up of the individual songs to create a model for the flow of the ideal concert list as used by the most successful concert artists. Based on this model I'd like to create a simple interface for users to assess whether a song is a good fit for a specific spot in a playlist.
+Setlist.fm offers data on setlists of millions of concerts that can easily be scraped. The goal is to merge these setlists with information from the Spotify API on the make-up of the individual songs to create a model for the flow of the ideal concert list as used by the most successful concert artists. Based on this model I'd like to create a simple interface for users to assess whether a song is a good fit for a specific spot in a playlist. This could be used by businesses to create better Playlists on spotify as this is often a long and tedious task for marketers. Making playlist sharing for customers an easy to accomplish task on a regular basis.
